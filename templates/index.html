@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script> src = "{% static 'js/bootstrap.min.js' %}"</script>
+</head>
+<body>
+<h1>SHOPLENTY APP</h1>
+<a href="{% url 'form' %}" class="btn btn-primary">Form</a>
+<a href="{% url 'gallery' %}" class="btn btn-primary">gallery</a>
+<a href="{% url 'info' %}" class="btn btn-primary">information</a>
+<p id="paragraph1" ><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi consectetur consequatur corporis dicta eveniet expedita, ipsum itaque libero modi necessitatibus neque nisi, non odit placeat quibusdam tempora tempore voluptatibus!</span><span>A ab accusamus aliquam aperiam doloribus dolorum est eveniet ex fuga harum impedit inventore ipsam itaque labore natus nemo nihil, nulla officia quae quasi recusandae sequi sunt, unde ut veniam.</span></p>
+<div class="main">
+    <img src="{% static 'assets/resources/IMAGE 4.jpeg' %}" alt="" class="myimage">
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid distinctio dolores dolorum ex impedit in ipsa iusto laboriosam nesciunt! Consequuntur doloremque eligendi maiores nam quae, quam quos reiciendis rerum.</span><span>Assumenda, nisi, tenetur! Ab animi at enim illo, ipsum quibusdam ullam? Alias aliquam atque blanditiis debitis doloribus, et excepturi ipsa iste natus nulla provident unde ut. Aliquam laudantium nobis voluptate.</span><span>A accusamus aperiam atque beatae blanditiis commodi consequuntur cupiditate dolorem ea esse ex id iste iusto laboriosam minus molestiae obcaecati, officia, officiis optio repudiandae similique soluta vero voluptatibus? Impedit, velit.</span></p>
+</div>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cumque debitis ex facere laborum modi nihil nisi porro sequi totam! Et facilis id inventore magni obcaecati sint tempore. Dolor, vitae?</span><span>Alias aliquam aliquid atque autem corporis cum dolorem, ducimus excepturi, expedita id libero molestias nisi, nostrum omnis porro ratione temporibus voluptatem. Aliquid asperiores eos fuga nam omnis quo sint, vitae.</span></p>
+<div class="home">
+    <img src="{% static 'assets/resources/IMAGE 1.jpeg' %}" alt="">
+    <img src="{% static 'assets/resources/IMAGE 2.jpeg' %}" alt="">
+    <img src="{% static 'assets/resources/IMAGE 3.jpeg' %}" alt="">
+
+</div>
+</body>
+</html>

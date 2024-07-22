@@ -1,0 +1,12 @@
+form{
+    background-color:skyblue;
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/resources/project5.jpeg")
+
+}
